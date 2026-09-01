@@ -1,0 +1,24 @@
+# deps / builds
+node_modules/
+.next/
+out/
+build/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# logs & local artifacts
+*.log
+server.log
+dev.log
+
+# os cruft
+.DS_Store
+Thumbs.db
+
+# sqlite (if enabled later)
+db/*.sqlite
+db/*.db
+prisma/*.db

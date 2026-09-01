@@ -1,0 +1,38 @@
+AMD AI Academy Challenge — Submission Form Fields (Step 1 of 3)
+================================================================
+
+SUBMISSION TITLE (max 50, min 5)
+--------------------------------
+Recommended (44 chars):
+ROCm Migration Copilot: AI CUDA-to-HIP Agent
+
+Shorter alternative (22 chars):
+ROCm Migration Copilot
+
+
+SHORT DESCRIPTION (max 255, min 50)
+-----------------------------------
+An AI agent that ports CUDA codebases to AMD HIP/ROCm automatically — analyzing, translating, building, and tuning GPU code so any project can escape CUDA lock-in.
+
+
+LONG DESCRIPTION (max 2000, min 600, min 100 words)
+---------------------------------------------------
+Millions of lines of production GPU code are locked inside CUDA — and as AI compute demand explodes, developers are looking for an escape hatch into AMD's open ROCm ecosystem. The blocker: porting CUDA to HIP by hand is slow, error-prone, and requires rare expertise in both platforms.
+
+ROCm Migration Copilot turns a multi-week manual port into an afternoon. Feed it a CUDA repository and it runs a five-stage agentic pipeline: (1) deep codebase analysis, building a kernel inventory and dependency graph with AST parsing; (2) AI-assisted porting that translates CUDA APIs, kernels, and memory management to HIP, intelligently handling the long tail that hipify-perl misses; (3) automated build and test on real AMD GPUs; (4) a performance-tuning advisor driven by Omniperf and Omnitrace insights; (5) a migration report with confidence scores for every change.
+
+The stack is AMD end to end — ROCm, HIP, and AMD Developer Cloud MI300X instances — powered by an agentic LLM core with tool calling, RAG over ROCm documentation, and self-healing fix loops, orchestrated in Python and LangGraph. Everything ships open source.
+
+This project is designed for the AI Academy Challenge's highest-weight XP categories head-on: built on AMD technology, a complete working project, open-sourced, with monthly milestone drops and public demos through December. The goal is not a demo — it is a developer tool the ROCm community can actually use.
+
+
+CATEGORIES (pick closest matches from the form's list)
+------------------------------------------------------
+1st: AI Agents  (agent pipeline is the core of the project)
+2nd: Developer Tools  (it is a compiler/migration tool for devs)
+3rd: Open Source  (full MIT/Apache release planned)
+
+
+TECHNOLOGIES USED (comma-separated)
+-----------------------------------
+ROCm, HIP, AMD Developer Cloud (MI300X), Python, PyTorch, LangGraph, vLLM, RAG, Tree-sitter, LibClang, Omniperf, Docker, GitHub Actions, Git
