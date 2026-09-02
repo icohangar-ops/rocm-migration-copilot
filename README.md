@@ -38,6 +38,36 @@ Built by **Team ROCm Rangers** for the [lablab × AMD AI Academy Challenge](http
   <img src="media/deck_frames/slide_01.png" alt="Deck — cover slide" width="640">
 </p>
 
+## Hackathon submission
+
+**Live demo:** https://rocm-migration-copilot-seven.vercel.app
+**Team:** ROCm Rangers · [lablab × AMD AI Academy Challenge](https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge) · Sept 1 → Dec 1, 2026
+
+| Asset | Where |
+|---|---|
+| Pitch video — 2:42 narrated, 1080p | [`submission/ROCm_Migration_Copilot_Video.mp4`](submission/ROCm_Migration_Copilot_Video.mp4) |
+| Pitch deck — 10 slides (PDF) | [`submission/ROCm_Migration_Copilot_Pitch_Deck.pdf`](submission/ROCm_Migration_Copilot_Pitch_Deck.pdf) |
+| Pitch deck — editable (PPTX) | [`submission/ROCm_Migration_Copilot_Pitch_Deck.pptx`](submission/ROCm_Migration_Copilot_Pitch_Deck.pptx) |
+| Project concept — 8 pages | [`submission/ROCm_Migration_Copilot_Project_Concept.pdf`](submission/ROCm_Migration_Copilot_Project_Concept.pdf) |
+| Cover / thumbnail — 2560×1440 | [`submission/ROCm_Migration_Copilot_Cover_16x9.png`](submission/ROCm_Migration_Copilot_Cover_16x9.png) |
+| Form copy-paste kit | [`submission/submission_form_fields.txt`](submission/submission_form_fields.txt) |
+
+### What is live today (day 1 of the challenge window)
+
+- Landing page deployed at **https://rocm-migration-copilot-seven.vercel.app** — Next.js 16, fully static, one-click deploy via Vercel.
+- Two identical open-source mirrors: [Cubiczan/rocm-migration-copilot](https://github.com/Cubiczan/rocm-migration-copilot) and [icohangar-ops/rocm-migration-copilot](https://github.com/icohangar-ops/rocm-migration-copilot).
+- Complete media kit in the `submission/` folder of both repos: pitch video, deck (PDF + PPTX), concept document, and cover image.
+
+### Roadmap — monthly open-source drops
+
+- **October** — working v0.1: AST-based kernel inventory, `hipify-perl` baseline, and the LLM porting loop running on a benchmark CUDA repository via AMD Developer Cloud MI300X.
+- **November** — self-healing build-and-test loop on real AMD GPUs, Omniperf-driven tuning advisor, migration reports with per-change confidence scores.
+- **December** — polished v1.0, a documented end-to-end case study porting a real-world CUDA codebase, and public demo sessions.
+
+### Why it matters to AMD
+
+Every port this tool completes converts locked-in CUDA code into a first-class ROCm citizen — growing the HIP ecosystem one repository at a time. The project is built on the AMD stack end to end: ROCm 6.x, HIP, MI300X instances on AMD Developer Cloud, and Omniperf/Omnitrace for tuning, doubling as a living example of agentic LLM tooling on AMD hardware. XP categories targeted head-on: built on AMD technology, a complete working project, open source, monthly milestone drops, and public demos through December 1.
+
 ## Tech stack
 
 ROCm · HIP · AMD Developer Cloud (MI300X) · Python · LangGraph · PyTorch ·
