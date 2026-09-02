@@ -4,19 +4,16 @@ This folder is a git-ready repository. Two paths below — pick one.
 
 ---
 
-## Step 1 — Push to GitHub
+## Step 1 — GitHub (DONE ✅)
+
+This repo is pushed to:
+
+- **Canonical:** https://github.com/Cubiczan/rocm-migration-copilot
+- **Mirror:** https://github.com/icohangar-ops/rocm-migration-copilot
 
 ```bash
-cd rocm-migration-copilot
-
-# create a new empty repo on github.com first (no README/gitignore), then:
-git init
-git add .
-git commit -m "ROCm Migration Copilot — landing page + submission kit"
-
-git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/rocm-migration-copilot.git
-git push -u origin main
+git push origin main        # canonical (Cubiczan)
+git push mirror main        # mirror (icohangar-ops)
 ```
 
 > Tip: this repo is the project's open-source deliverable — it maps directly to the

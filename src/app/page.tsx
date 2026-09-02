@@ -1,4 +1,4 @@
-const GITHUB_URL = "https://github.com/rocm-rangers/rocm-migration-copilot";
+const GITHUB_URL = "https://github.com/Cubiczan/rocm-migration-copilot";
 
 const STAGES = [
   { n: "01", t: "Analyze", d: "AST parsing builds a kernel inventory and dependency graph; flags the long tail that hipify-perl misses." },
