@@ -8,7 +8,11 @@ analyzing, translating, building, testing, and tuning GPU code on real MI300X ha
 Built by **Team ROCm Rangers** for the [lablab × AMD AI Academy Challenge](https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge)
 (Sept 1 → Dec 1, 2026).
 
+> **Status:** the porting tool itself is under construction for the challenge window. This repo currently ships the landing page (`src/`), media kit (`media/`), and submission assets (`submission/`); the working v0.1 (AST kernel inventory + LLM porting loop) lands with the October drop — see the [roadmap](#roadmap--monthly-open-source-drops).
+
 ## The five-stage pipeline
+
+*(v1.0 target architecture — the stages below are the design under construction, not yet in this repo.)*
 
 | Stage | What happens |
 |---|---|
